@@ -1,0 +1,18 @@
+@import '@/components/main/Main.scss';
+@import '@/components/skills/Skills.scss';
+@import '@/components/Navigation/Navigation.scss';
+@import '@/components/Footer/Footer.scss';
+@import '@/components/work/Work.scss';
+@import '@/assets/style/fonts.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+

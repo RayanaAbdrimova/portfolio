@@ -1,0 +1,26 @@
+.skills {
+    &_header {
+        margin: 50px 0;
+        font-family: 'CM';
+        color: #ED0C76;
+
+    }
+&_img{
+    width: 40px;
+    height: 35px;
+}
+    &_card {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+        font-family: 'CM';
+
+        &-header {
+            padding: 70px 0;
+            text-align: center;
+            border: 3px solid #e7a9be;
+            border-radius: 10px;
+            background: #ffe7d3;
+        }
+    }
+}

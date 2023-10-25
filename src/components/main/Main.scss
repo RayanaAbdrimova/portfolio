@@ -1,0 +1,33 @@
+.main {
+    display: flex;
+    gap: 60px;
+    &_left {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin: auto;
+        &-header1 {
+            font-family: 'CM';
+            color: #ED0C76;
+        }
+
+        &-header2 {
+            font-family: 'CL';
+        }
+
+        &-text {
+            display: flex;
+            font-family: 'CM';
+        }
+       
+
+    }
+
+    &_right {
+        &-img {
+            width: 500px;
+            height:500px;
+        }
+    }
+}
+
